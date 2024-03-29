@@ -1,0 +1,149 @@
+
+
+.Contact_Form {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+  border-radius: 5px;
+  margin-bottom: 3em;
+  align-items: center;
+  justify-items: center;
+
+}
+.container {
+
+  width: 40%;
+  margin-left: 10em;
+  
+
+}
+
+
+.map-container {
+  height: auto;
+}
+.info {
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333; /* Dark Gray */
+  padding: 1em; /* Add some padding to the content */
+  height: 30em;
+  color: aliceblue;
+  width: 40%; /* Limit the width of the info section */
+}
+
+/* Add some spacing between the elements within the info section */
+.info h2,
+.info p {
+  margin-bottom: 1rem;
+}
+
+/* Style the contact details */
+.info h2 {
+  font-size: 1.4rem;
+  color: #ffffff;
+}
+
+/* Style the address and phone details */
+.info p {
+  font-size: 0.9rem;
+  color: gray;
+}
+
+/* Style the email and website links */
+.info a {
+  color: #dcdcdc; /* Change link color on hover to #2b5db0 */
+  text-decoration: underline;
+  font-size: 1.2em; /* Add underline on hover if desired */
+}
+
+
+
+
+
+iframe {
+  
+  width: 140%;
+height: 30em;
+  border-radius: 2;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+ 
+
+
+
+.default-button:hover {
+  background-color: #b30b0b;
+}
+.Contact_Form {
+  display: flex;
+  align-items: center; /* This line can be removed to fix the alignment */
+  margin-top: 3rem;
+  border-radius: 5px;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  width: 80%;
+  justify-items: center; /* You can keep this line if needed */
+}
+
+
+  
+
+  
+  
+  
+  
+  .Contact_Form {
+   
+    align-items: flex-start; /* Align items at the top */
+    
+  }
+  
+  .container {
+    width: 50%; /* Adjust the width as needed */
+  }
+  
+  .map-container {
+    width: 30%; /* Adjust the width as needed */
+    height: 9.25em; /* Allow the map's height to adjust based on content */
+  }
+  .map-container1 {
+
+    width: 30%; /* Adjust the width as needed */
+    height: 9.25em; /* Allow the map's height to adjust based on content */
+  }
+  @media (max-width: 768px) {
+    .Contact_Form {
+      display: block;
+      width: 100%; /* Make the form full-width on smaller screens */
+      margin-left: 0; /* Remove left margin on smaller screens */
+      margin-bottom: 0;
+    }
+    .info a {
+     
+      font-size: 1.2em; /* Add underline on hover if desired */
+    }
+  
+    .container {
+      width: 95%; /* Make the container full-width on smaller screens */
+      justify-content: center;
+      margin: 0.5rem;
+    }
+  
+    .info {
+      width: 100%; /* Make the info section full-width on smaller screens */
+    }
+  
+    .map-container {
+      width: 100%; /* Make the map container full-width on smaller screens */
+      height: 100%; /* Allow the map's height to adjust based on content */
+    }
+  
+    iframe {
+      width: 100%; /* Make the iframe full-width on smaller screens */
+      height: 20em; /* Allow the map's height to adjust based on content */
+    }
+  }
+  

@@ -11,10 +11,10 @@ import { Marble } from 'src/app/shared/models/marble';
 })
 export class MarblePageComponent {
   marble!:Marble;
-  constructor(activatedRoute:ActivatedRoute,marbleService:MarbleService,private cartServices:CartService,private router: Router){       //activatedRoute read the marble id from route page
+  constructor(activatedRoute:ActivatedRoute,marbleService:MarbleService,private cartServices:CartService,private router: Router){      
     activatedRoute.params.subscribe((params)=>
     {
-      if(params.id)    //params.id not null
+      if(params.id)    
  marbleService.getMarbleById(params.id).subscribe((serverMarble)=>{
   this.marble=serverMarble;
  });
